@@ -1,0 +1,36 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+}
+
+<div class="text-center">
+     <form method="post">
+
+       <div class="form-group">
+
+
+             <h3 for="idRoom">Numero camera:</h3>
+             <input asp-for="IdRoom" class="form-control" id="idRoom" type="number" required/>
+
+             <h3 class="mt-3" for="message">Messaggio da inviare:</h3>
+            <input asp-for="Message" class="form-control" id="message" type="text" placeholder="massimo 29 caratteri" maxlength="29" required />
+
+             <h3 class="mt-3" for="time">Durata:</h3>
+            <input asp-for="Time" class="form-control" id="time" type="number" min="1" max="4" required />
+             <p class="mt-3">
+                 1 - 10 secondi
+                 <br />
+                 2 - 1 minuto
+                 <br />
+                 3 - 10 minuti
+                 <br />
+                 4 - 30 minuti
+             </p>
+
+      </div>
+
+       <input type="submit" value="Invia" class="buttonInput">
+
+    </form>
+</div>

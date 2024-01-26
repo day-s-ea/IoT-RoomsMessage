@@ -1,0 +1,95 @@
+C:\Users\Sabina\Desktop\SimulazioneEsame\WelcomeWebApp\WelcomeWebApp\obj\Debug\net6.0\WelcomeWebApp.csproj.AssemblyReference.cache
+C:\Users\Sabina\Desktop\SimulazioneEsame\WelcomeWebApp\WelcomeWebApp\obj\Debug\net6.0\WelcomeWebApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Sabina\Desktop\SimulazioneEsame\WelcomeWebApp\WelcomeWebApp\obj\Debug\net6.0\WelcomeWebApp.AssemblyInfoInputs.cache
+C:\Users\Sabina\Desktop\SimulazioneEsame\WelcomeWebApp\WelcomeWebApp\obj\Debug\net6.0\WelcomeWebApp.AssemblyInfo.cs
+C:\Users\Sabina\Desktop\SimulazioneEsame\WelcomeWebApp\WelcomeWebApp\obj\Debug\net6.0\WelcomeWebApp.csproj.CoreCompileInputs.cache
+C:\Users\Sabina\Desktop\SimulazioneEsame\WelcomeWebApp\WelcomeWebApp\obj\Debug\net6.0\WelcomeWebApp.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Sabina\Desktop\SimulazioneEsame\WelcomeWebApp\WelcomeWebApp\obj\Debug\net6.0\WelcomeWebApp.RazorAssemblyInfo.cache
+C:\Users\Sabina\Desktop\SimulazioneEsame\WelcomeWebApp\WelcomeWebApp\obj\Debug\net6.0\WelcomeWebApp.RazorAssemblyInfo.cs
+C:\Users\Sabina\Desktop\SimulazioneEsame\WelcomeWebApp\WelcomeWebApp\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\Sabina\Desktop\SimulazioneEsame\WelcomeWebApp\WelcomeWebApp\bin\Debug\net6.0\appsettings.json
+C:\Users\Sabina\Desktop\SimulazioneEsame\WelcomeWebApp\WelcomeWebApp\bin\Debug\net6.0\WelcomeWebApp.staticwebassets.runtime.json
+C:\Users\Sabina\Desktop\SimulazioneEsame\WelcomeWebApp\WelcomeWebApp\bin\Debug\net6.0\WelcomeWebApp.exe
+C:\Users\Sabina\Desktop\SimulazioneEsame\WelcomeWebApp\WelcomeWebApp\bin\Debug\net6.0\WelcomeWebApp.deps.json
+C:\Users\Sabina\Desktop\SimulazioneEsame\WelcomeWebApp\WelcomeWebApp\bin\Debug\net6.0\WelcomeWebApp.runtimeconfig.json
+C:\Users\Sabina\Desktop\SimulazioneEsame\WelcomeWebApp\WelcomeWebApp\bin\Debug\net6.0\WelcomeWebApp.dll
+C:\Users\Sabina\Desktop\SimulazioneEsame\WelcomeWebApp\WelcomeWebApp\bin\Debug\net6.0\WelcomeWebApp.pdb
+C:\Users\Sabina\Desktop\SimulazioneEsame\WelcomeWebApp\WelcomeWebApp\bin\Debug\net6.0\MQTTnet.dll
+C:\Users\Sabina\Desktop\SimulazioneEsame\WelcomeWebApp\WelcomeWebApp\bin\Debug\net6.0\MQTTnet.Extensions.ManagedClient.dll
+C:\Users\Sabina\Desktop\SimulazioneEsame\WelcomeWebApp\WelcomeWebApp\bin\Debug\net6.0\Newtonsoft.Json.dll
+C:\Users\Sabina\Desktop\SimulazioneEsame\WelcomeWebApp\WelcomeWebApp\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\Sabina\Desktop\SimulazioneEsame\WelcomeWebApp\WelcomeWebApp\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\Sabina\Desktop\SimulazioneEsame\WelcomeWebApp\WelcomeWebApp\obj\Debug\net6.0\scopedcss\Pages\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\Sabina\Desktop\SimulazioneEsame\WelcomeWebApp\WelcomeWebApp\obj\Debug\net6.0\scopedcss\bundle\WelcomeWebApp.styles.css
+C:\Users\Sabina\Desktop\SimulazioneEsame\WelcomeWebApp\WelcomeWebApp\obj\Debug\net6.0\scopedcss\projectbundle\WelcomeWebApp.bundle.scp.css
+C:\Users\Sabina\Desktop\SimulazioneEsame\WelcomeWebApp\WelcomeWebApp\obj\Debug\net6.0\WelcomeWebApp.csproj.CopyComplete
+C:\Users\Sabina\Desktop\SimulazioneEsame\WelcomeWebApp\WelcomeWebApp\obj\Debug\net6.0\WelcomeWebApp.dll
+C:\Users\Sabina\Desktop\SimulazioneEsame\WelcomeWebApp\WelcomeWebApp\obj\Debug\net6.0\refint\WelcomeWebApp.dll
+C:\Users\Sabina\Desktop\SimulazioneEsame\WelcomeWebApp\WelcomeWebApp\obj\Debug\net6.0\WelcomeWebApp.pdb
+C:\Users\Sabina\Desktop\SimulazioneEsame\WelcomeWebApp\WelcomeWebApp\obj\Debug\net6.0\WelcomeWebApp.genruntimeconfig.cache
+C:\Users\Sabina\Desktop\SimulazioneEsame\WelcomeWebApp\WelcomeWebApp\obj\Debug\net6.0\ref\WelcomeWebApp.dll
+C:\Users\Sabina\Desktop\MargheritaSabina\WebApp\WelcomeWebApp\WelcomeWebApp\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\Sabina\Desktop\MargheritaSabina\WebApp\WelcomeWebApp\WelcomeWebApp\bin\Debug\net6.0\appsettings.json
+C:\Users\Sabina\Desktop\MargheritaSabina\WebApp\WelcomeWebApp\WelcomeWebApp\bin\Debug\net6.0\WelcomeWebApp.staticwebassets.runtime.json
+C:\Users\Sabina\Desktop\MargheritaSabina\WebApp\WelcomeWebApp\WelcomeWebApp\bin\Debug\net6.0\WelcomeWebApp.exe
+C:\Users\Sabina\Desktop\MargheritaSabina\WebApp\WelcomeWebApp\WelcomeWebApp\bin\Debug\net6.0\WelcomeWebApp.deps.json
+C:\Users\Sabina\Desktop\MargheritaSabina\WebApp\WelcomeWebApp\WelcomeWebApp\bin\Debug\net6.0\WelcomeWebApp.runtimeconfig.json
+C:\Users\Sabina\Desktop\MargheritaSabina\WebApp\WelcomeWebApp\WelcomeWebApp\bin\Debug\net6.0\WelcomeWebApp.dll
+C:\Users\Sabina\Desktop\MargheritaSabina\WebApp\WelcomeWebApp\WelcomeWebApp\bin\Debug\net6.0\WelcomeWebApp.pdb
+C:\Users\Sabina\Desktop\MargheritaSabina\WebApp\WelcomeWebApp\WelcomeWebApp\bin\Debug\net6.0\MQTTnet.dll
+C:\Users\Sabina\Desktop\MargheritaSabina\WebApp\WelcomeWebApp\WelcomeWebApp\bin\Debug\net6.0\MQTTnet.Extensions.ManagedClient.dll
+C:\Users\Sabina\Desktop\MargheritaSabina\WebApp\WelcomeWebApp\WelcomeWebApp\bin\Debug\net6.0\Newtonsoft.Json.dll
+C:\Users\Sabina\Desktop\MargheritaSabina\WebApp\WelcomeWebApp\WelcomeWebApp\obj\Debug\net6.0\WelcomeWebApp.csproj.AssemblyReference.cache
+C:\Users\Sabina\Desktop\MargheritaSabina\WebApp\WelcomeWebApp\WelcomeWebApp\obj\Debug\net6.0\WelcomeWebApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Sabina\Desktop\MargheritaSabina\WebApp\WelcomeWebApp\WelcomeWebApp\obj\Debug\net6.0\WelcomeWebApp.AssemblyInfoInputs.cache
+C:\Users\Sabina\Desktop\MargheritaSabina\WebApp\WelcomeWebApp\WelcomeWebApp\obj\Debug\net6.0\WelcomeWebApp.AssemblyInfo.cs
+C:\Users\Sabina\Desktop\MargheritaSabina\WebApp\WelcomeWebApp\WelcomeWebApp\obj\Debug\net6.0\WelcomeWebApp.csproj.CoreCompileInputs.cache
+C:\Users\Sabina\Desktop\MargheritaSabina\WebApp\WelcomeWebApp\WelcomeWebApp\obj\Debug\net6.0\WelcomeWebApp.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Sabina\Desktop\MargheritaSabina\WebApp\WelcomeWebApp\WelcomeWebApp\obj\Debug\net6.0\WelcomeWebApp.RazorAssemblyInfo.cache
+C:\Users\Sabina\Desktop\MargheritaSabina\WebApp\WelcomeWebApp\WelcomeWebApp\obj\Debug\net6.0\WelcomeWebApp.RazorAssemblyInfo.cs
+C:\Users\Sabina\Desktop\MargheritaSabina\WebApp\WelcomeWebApp\WelcomeWebApp\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\Sabina\Desktop\MargheritaSabina\WebApp\WelcomeWebApp\WelcomeWebApp\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\Sabina\Desktop\MargheritaSabina\WebApp\WelcomeWebApp\WelcomeWebApp\obj\Debug\net6.0\scopedcss\Pages\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\Sabina\Desktop\MargheritaSabina\WebApp\WelcomeWebApp\WelcomeWebApp\obj\Debug\net6.0\scopedcss\bundle\WelcomeWebApp.styles.css
+C:\Users\Sabina\Desktop\MargheritaSabina\WebApp\WelcomeWebApp\WelcomeWebApp\obj\Debug\net6.0\scopedcss\projectbundle\WelcomeWebApp.bundle.scp.css
+C:\Users\Sabina\Desktop\MargheritaSabina\WebApp\WelcomeWebApp\WelcomeWebApp\obj\Debug\net6.0\WelcomeWebApp.csproj.CopyComplete
+C:\Users\Sabina\Desktop\MargheritaSabina\WebApp\WelcomeWebApp\WelcomeWebApp\obj\Debug\net6.0\WelcomeWebApp.dll
+C:\Users\Sabina\Desktop\MargheritaSabina\WebApp\WelcomeWebApp\WelcomeWebApp\obj\Debug\net6.0\refint\WelcomeWebApp.dll
+C:\Users\Sabina\Desktop\MargheritaSabina\WebApp\WelcomeWebApp\WelcomeWebApp\obj\Debug\net6.0\WelcomeWebApp.pdb
+C:\Users\Sabina\Desktop\MargheritaSabina\WebApp\WelcomeWebApp\WelcomeWebApp\obj\Debug\net6.0\WelcomeWebApp.genruntimeconfig.cache
+C:\Users\Sabina\Desktop\MargheritaSabina\WebApp\WelcomeWebApp\WelcomeWebApp\obj\Debug\net6.0\ref\WelcomeWebApp.dll
+C:\Users\sabin\Desktop\Esame Kennedy\WebApp\WelcomeWebApp\WelcomeWebApp\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\sabin\Desktop\Esame Kennedy\WebApp\WelcomeWebApp\WelcomeWebApp\bin\Debug\net6.0\appsettings.json
+C:\Users\sabin\Desktop\Esame Kennedy\WebApp\WelcomeWebApp\WelcomeWebApp\bin\Debug\net6.0\WelcomeWebApp.staticwebassets.runtime.json
+C:\Users\sabin\Desktop\Esame Kennedy\WebApp\WelcomeWebApp\WelcomeWebApp\bin\Debug\net6.0\WelcomeWebApp.exe
+C:\Users\sabin\Desktop\Esame Kennedy\WebApp\WelcomeWebApp\WelcomeWebApp\bin\Debug\net6.0\WelcomeWebApp.deps.json
+C:\Users\sabin\Desktop\Esame Kennedy\WebApp\WelcomeWebApp\WelcomeWebApp\bin\Debug\net6.0\WelcomeWebApp.runtimeconfig.json
+C:\Users\sabin\Desktop\Esame Kennedy\WebApp\WelcomeWebApp\WelcomeWebApp\bin\Debug\net6.0\WelcomeWebApp.dll
+C:\Users\sabin\Desktop\Esame Kennedy\WebApp\WelcomeWebApp\WelcomeWebApp\bin\Debug\net6.0\WelcomeWebApp.pdb
+C:\Users\sabin\Desktop\Esame Kennedy\WebApp\WelcomeWebApp\WelcomeWebApp\bin\Debug\net6.0\MQTTnet.dll
+C:\Users\sabin\Desktop\Esame Kennedy\WebApp\WelcomeWebApp\WelcomeWebApp\bin\Debug\net6.0\MQTTnet.Extensions.ManagedClient.dll
+C:\Users\sabin\Desktop\Esame Kennedy\WebApp\WelcomeWebApp\WelcomeWebApp\bin\Debug\net6.0\Newtonsoft.Json.dll
+C:\Users\sabin\Desktop\Esame Kennedy\WebApp\WelcomeWebApp\WelcomeWebApp\obj\Debug\net6.0\WelcomeWebApp.csproj.AssemblyReference.cache
+C:\Users\sabin\Desktop\Esame Kennedy\WebApp\WelcomeWebApp\WelcomeWebApp\obj\Debug\net6.0\WelcomeWebApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\sabin\Desktop\Esame Kennedy\WebApp\WelcomeWebApp\WelcomeWebApp\obj\Debug\net6.0\WelcomeWebApp.AssemblyInfoInputs.cache
+C:\Users\sabin\Desktop\Esame Kennedy\WebApp\WelcomeWebApp\WelcomeWebApp\obj\Debug\net6.0\WelcomeWebApp.AssemblyInfo.cs
+C:\Users\sabin\Desktop\Esame Kennedy\WebApp\WelcomeWebApp\WelcomeWebApp\obj\Debug\net6.0\WelcomeWebApp.csproj.CoreCompileInputs.cache
+C:\Users\sabin\Desktop\Esame Kennedy\WebApp\WelcomeWebApp\WelcomeWebApp\obj\Debug\net6.0\WelcomeWebApp.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\sabin\Desktop\Esame Kennedy\WebApp\WelcomeWebApp\WelcomeWebApp\obj\Debug\net6.0\WelcomeWebApp.RazorAssemblyInfo.cache
+C:\Users\sabin\Desktop\Esame Kennedy\WebApp\WelcomeWebApp\WelcomeWebApp\obj\Debug\net6.0\WelcomeWebApp.RazorAssemblyInfo.cs
+C:\Users\sabin\Desktop\Esame Kennedy\WebApp\WelcomeWebApp\WelcomeWebApp\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\sabin\Desktop\Esame Kennedy\WebApp\WelcomeWebApp\WelcomeWebApp\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\sabin\Desktop\Esame Kennedy\WebApp\WelcomeWebApp\WelcomeWebApp\obj\Debug\net6.0\staticwebassets\msbuild.WelcomeWebApp.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\sabin\Desktop\Esame Kennedy\WebApp\WelcomeWebApp\WelcomeWebApp\obj\Debug\net6.0\staticwebassets\msbuild.build.WelcomeWebApp.props
+C:\Users\sabin\Desktop\Esame Kennedy\WebApp\WelcomeWebApp\WelcomeWebApp\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.WelcomeWebApp.props
+C:\Users\sabin\Desktop\Esame Kennedy\WebApp\WelcomeWebApp\WelcomeWebApp\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.WelcomeWebApp.props
+C:\Users\sabin\Desktop\Esame Kennedy\WebApp\WelcomeWebApp\WelcomeWebApp\obj\Debug\net6.0\staticwebassets.pack.json
+C:\Users\sabin\Desktop\Esame Kennedy\WebApp\WelcomeWebApp\WelcomeWebApp\obj\Debug\net6.0\scopedcss\Pages\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\sabin\Desktop\Esame Kennedy\WebApp\WelcomeWebApp\WelcomeWebApp\obj\Debug\net6.0\scopedcss\bundle\WelcomeWebApp.styles.css
+C:\Users\sabin\Desktop\Esame Kennedy\WebApp\WelcomeWebApp\WelcomeWebApp\obj\Debug\net6.0\scopedcss\projectbundle\WelcomeWebApp.bundle.scp.css
+C:\Users\sabin\Desktop\Esame Kennedy\WebApp\WelcomeWebApp\WelcomeWebApp\obj\Debug\net6.0\WelcomeWebApp.csproj.CopyComplete
+C:\Users\sabin\Desktop\Esame Kennedy\WebApp\WelcomeWebApp\WelcomeWebApp\obj\Debug\net6.0\WelcomeWebApp.dll
+C:\Users\sabin\Desktop\Esame Kennedy\WebApp\WelcomeWebApp\WelcomeWebApp\obj\Debug\net6.0\refint\WelcomeWebApp.dll
+C:\Users\sabin\Desktop\Esame Kennedy\WebApp\WelcomeWebApp\WelcomeWebApp\obj\Debug\net6.0\WelcomeWebApp.pdb
+C:\Users\sabin\Desktop\Esame Kennedy\WebApp\WelcomeWebApp\WelcomeWebApp\obj\Debug\net6.0\WelcomeWebApp.genruntimeconfig.cache
+C:\Users\sabin\Desktop\Esame Kennedy\WebApp\WelcomeWebApp\WelcomeWebApp\obj\Debug\net6.0\ref\WelcomeWebApp.dll
