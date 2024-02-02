@@ -29,94 +29,95 @@
 #define L_CFG 0x38
 #define L_CUR 0x0E
 
-#define PICID '9'
-#define BUFMAX 32
-#define ENDCHAR '\n' 
+#define PICID '9'       // ID del PIC
+#define BUFMAX 32       // Dimensione massima del buffer
+#define ENDCHAR '\n'    // Carattere di fine messaggio
 
-#define _XTAL_FREQ 8000000
+#define _XTAL_FREQ 8000000 // Frequenza di clock
 
 #include <xc.h>
 
-int number = 0;
-char timeCountFlag = 0;
-int timeCount = 0;
-char dataReceivedBuffer[BUFMAX];
-char messageReceived[BUFMAX];
-char indexRC = 0;
-char isReceived = 0;
+int number = 0;                // Variabile per il conteggio del tempo
+char timeCountFlag = 0;         // Flag per indicare il conteggio del tempo
+int timeCount = 0;              // Contatore del tempo trascorso
+char dataReceivedBuffer[BUFMAX]; // Buffer per i dati ricevuti
+char messageReceived[BUFMAX];    // Buffer per il messaggio ricevuto
+char indexRC = 0;                // Indice del buffer
+char isReceived = 0;             // Flag per indicare la ricezione di un messaggio
 
+// Funzioni
 void init_PIC(void);
 //  LCD
 void LCD_Init(void);
 void LCD_Send(char, char);
 void LCD_Write(char *);
-
 // Timer
 void init_timer(void);
-
 // UART
 void UART_init(long int);
-
-// Other functions
+// Altre funzioni
 void clearBuff(char *, char, char *);
 
+// Funzione principale
 void main(void) {
     init_PIC();
     while(1)
     {
-
+        // Se è stato ricevuto un messaggio
         if (isReceived)
         {   
+            // Se l'ID del PIC nel messaggio corrisponde a quello atteso
             if(dataReceivedBuffer[0] == PICID)
             {
-                
-                char indexMessage = 2; //The first byte is the ID of the Pic, the second byte is the time of the LCD message
-                
-                while(dataReceivedBuffer[indexMessage] != ENDCHAR) // Until it finds the end of message character
-                {
+                char indexMessage = 2; //Il primo byte è l'ID del PIC, il secondo byte è il tempo del messaggio LCD.
+                // Copia il messaggio ricevuto nel buffer del messaggio
+                while(dataReceivedBuffer[indexMessage] != ENDCHAR) //Finchè non trova il carattere di fine messaggio
+                { 
                    messageReceived[indexMessage-2] = dataReceivedBuffer[indexMessage];
                    indexMessage++;
                 }
-                messageReceived[indexMessage-2] = '\0'; //I set the end-of-string character at the end of the message
+                // Termina la stringa del messaggio ricevuto
+                messageReceived[indexMessage-2] = '\0';
+                // Pulisce il display LCD e mostra il messaggio
                 LCD_Send(L_CLR,1);
                 LCD_Write(messageReceived);
-
             }
-
-            
             isReceived = 0;
         }
     }
     return;
 }
 
-
+// Inizializza il PIC
 void init_PIC()
 {    
-    TRISA = 0x00;
-    TRISB = 0x00;
-    TRISC = 0x00;
-    TRISD = 0x00;
-    TRISE = 0x00;
+    // Imposta tutti i pin come output
+    TRISA = TRISB = TRISC = TRISD = TRISE = 0x00;
+    // Inizializza il display LCD
     LCD_Init();
+    // Pulisce il buffer dei dati ricevuti
     clearBuff(dataReceivedBuffer, BUFMAX, &indexRC);
+    // Abilita le interruzioni globali e periferiche
     INTCONbits.GIE = 1;
     INTCONbits.PEIE = 1;
+    // Inizializza il timer
     init_timer();
+    // Inizializza la comunicazione UART
     UART_init(9600);
 }
 
-//Liquid Crystal Display
+// Invia un comando al display LCD
 void LCD_Send(char data, char mode){
     PORTE |= L_EN;
     PORTD = data;   
-    (mode) ? (PORTE = PORTE & ~L_RS) : (PORTE |= L_RS);
+    (mode) ? (PORTE &= ~L_RS) : (PORTE |= L_RS);
     __delay_ms(3);
     PORTE &= ~L_EN;
     __delay_ms(3);
     PORTE |= ~L_EN;
 }
 
+// Inizializza il display LCD
 void LCD_Init(){
     PORTE &= ~L_RS;
     PORTE &= ~L_EN;
@@ -131,10 +132,11 @@ void LCD_Init(){
     LCD_Send(L_ON, 1);
     LCD_Send(L_CLR, 1);
     LCD_Send(L_CUR, 1);
-    LCD_Send(L_NCR, 1);//UPD
+    LCD_Send(L_NCR, 1); //UPD
     LCD_Send(L_L1, 1);
 }
 
+// Scrive sul display LCD
 void LCD_Write(char *text)
 {
     for(int j = 0; text[j] != 0; j++)
@@ -145,7 +147,7 @@ void LCD_Write(char *text)
     }
 }
 
-// Timer
+// Inizializza il timer
 void init_timer()
 {
     INTCONbits.TMR0IE = 1;
@@ -153,7 +155,7 @@ void init_timer()
     TMR0 = 6;
 }
 
-// UART
+// Inizializza la comunicazione UART
 void UART_init(long int baudRate)
 {
     TRISCbits.TRISC6 = 0;
@@ -164,7 +166,7 @@ void UART_init(long int baudRate)
     PIE1bits.RCIE = 1;
 }
 
-// Other functions
+// Pulisce un buffer di dati
 void clearBuff(char *buf, char size, char *index)
 {
     for(char i = 0; i < size; i++)
@@ -174,54 +176,43 @@ void clearBuff(char *buf, char size, char *index)
     *index = 0;
 }
 
+// Interrupt
 void __interrupt() ISR()
 {
     if(INTCONbits.TMR0IF)
     {
         TMR0 = 6;
         
-        //If a message has arrived
+        // Se è attivo il conteggio del tempo (il messaggio è arrivato)
         if (timeCountFlag){
-            //I give the time value of the displayLCD message
+            // Imposta il tempo di visualizzazione del messaggio sul display LCD
             switch(dataReceivedBuffer[1]) {
-                case '1':
-                    number = 300;
-                  break;
-                case '2':
-                    number = 1800;
-                  break;
-                case '3':
-                    number = 18000;
-                  break;
-                case '4':
-                    number = 54000;
-                  break; 
-                  
-                default:
-                    number = 300;
-              }
-            
+                case '1': number = 300; break;
+                case '2': number = 1800; break;
+                case '3': number = 18000; break;
+                case '4': number = 54000; break; 
+                default: number = 300;
+            }
             timeCount++;
+            // Se è trascorso il tempo necessario, pulisce il display LCD
             if(timeCount > number) 
             {
-                //clear LCD display
+                // Pulisci LCD
                 LCD_Send(L_CLR, 1);
-                //clear buffer
+                // Pulisci buffer
                 clearBuff(dataReceivedBuffer, BUFMAX, &indexRC);
                 timeCountFlag = 0;
                 timeCount = 0;
             }
         }
-        
         INTCONbits.TMR0IF = 0;
-        
     }
     
-    //I receive the data
+    // Riceve i dati dalla porta seriale
     if(PIR1bits.RCIF)
     {
-
         dataReceivedBuffer[indexRC] = RCREG;
+        // Se il buffer è pieno o è stato ricevuto il carattere di fine messaggio
         if (indexRC >= BUFMAX || dataReceivedBuffer[indexRC] == ENDCHAR)
         {
             isReceived = 1;
@@ -229,8 +220,5 @@ void __interrupt() ISR()
         }
         indexRC++;
         PIR1bits.RCIF = 0;
-        
     }
 }
-
-
